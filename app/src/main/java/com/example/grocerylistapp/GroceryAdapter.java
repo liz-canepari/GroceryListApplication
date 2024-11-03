@@ -27,6 +27,12 @@ public class GroceryAdapter extends RecyclerView.Adapter<GroceryAdapter.ViewHold
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         String item = groceryList.get(position);
         holder.textView.setText(item);
+
+        holder.itemView.setOnClickListener(v -> {
+            groceryList.remove(position);
+            notifyItemRemoved(position);
+        });
+
     }
 
     @Override
