@@ -6,7 +6,7 @@ The app opens with a screen displaying the currently selected grocery list. User
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+Grocery List Video (https://youtu.be/LxcYeC9cex4)
 
 # Development Environment
 
